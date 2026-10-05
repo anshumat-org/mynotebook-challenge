@@ -1,0 +1,57 @@
+# Local environment and secrets (keep the safe example tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Dependencies and generated output
+node_modules/
+.pnp.*
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.turbo/
+.vercel/
+.netlify/
+dist/
+build/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Python/server environments if used
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime files, local databases, backups, logs
+*.log
+logs/
+*.pid
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.dump
+*.sql.gz
+backups/
+uploads/
+
+# Operating system and personal editor state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Keep lockfiles, schemas, migrations, tests, and documentation tracked.
